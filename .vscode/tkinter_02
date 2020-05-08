@@ -1,0 +1,21 @@
+#import tkinter as tk
+#1행의　import부분 말고 3행을 쓰면 .kt를 빼고 쓰는것이 가능하다
+from tkinter import *
+
+#페이지 만들기/ 변수 지정해주고 크기, 이름 설정하기
+root = Tk()
+
+lbl = Label(root, text="이름")
+#lbl.pack()
+lbl.grid(row=0, column=0)
+
+txt = Entry(root)
+#txt.pack()
+txt.grid(row=0, column=1)
+
+btn = Button(root, text="OK")
+#btn.pack()
+btn.grid(row=1, column=1)
+
+#이게 있어야 페이지가 뜬다
+root.mainloop()
