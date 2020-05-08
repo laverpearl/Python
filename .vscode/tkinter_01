@@ -1,0 +1,28 @@
+import tkinter as tk
+
+#画面の作成
+root = tk.Tk()
+root.geometry('1600x400') 
+root.title("test")
+
+#ボタンの動作関数
+def bt_1():
+    as1 = txt_1.get()
+    txt_2.insert(0,as1)
+
+#テキストボックス
+txt_1 = tk.Entry(font=("",30), width=15)
+txt_1.place(x=200, y=10)
+txt_2 = tk.Entry(font=("",30), width=15)
+txt_2.place(x=200, y=80)
+
+#ラベル
+lbl = tk.Label(text='Apple', font=("",30))
+lbl.place(x=200, y=150)
+
+#ボタン
+a = tk.Button(root, text='button', font=("",30), width=5, command=bt_1)
+a.place(x=400, y=150)
+
+#mainloopは行の最後
+root.mainloop()
