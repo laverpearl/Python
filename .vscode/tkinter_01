@@ -2,7 +2,7 @@ import tkinter as tk
 
 #画面の作成
 root = tk.Tk()
-root.geometry('1500x400') 
+root.geometry('1500x500') 
 root.title("test")
 
 #ボタンの動作関数
