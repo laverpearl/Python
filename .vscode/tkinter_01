@@ -2,7 +2,7 @@ import tkinter as tk
 
 #画面の作成
 root = tk.Tk()
-root.geometry('1600x400') 
+root.geometry('1500x400') 
 root.title("test")
 
 #ボタンの動作関数
@@ -26,3 +26,4 @@ a.place(x=400, y=150)
 
 #mainloopは行の最後
 root.mainloop()
+
