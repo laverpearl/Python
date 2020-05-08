@@ -19,3 +19,4 @@ btn.grid(row=1, column=1)
 
 #이게 있어야 페이지가 뜬다
 root.mainloop()
+
