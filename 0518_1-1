@@ -1,0 +1,7 @@
+# numpy라는 라이브러리를 np라는 이름으로 불러오기 
+# numpy는 데이터 분석에 많이 사용된다 
+import numpy as np
+
+# activation 다음층으로 어떻게 값을 넘길지 결정하는 부분
+# loss 한번 신경망이 실행될때마다 오차값을 추적하는 함수 
+# optimizer 오차를 어떻게 줄여나갈지 정하는 함수
