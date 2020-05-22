@@ -1,0 +1,37 @@
+import numpy as np 
+
+x = np.array([1,2,3])
+
+y = np.arange(5)
+
+print(x)
+print(y)
+
+#1次元のndarrayクラス
+array_1d = np.array([1,2,3,4,5,6,7,8])
+#2次元のndarrayクラス
+array_2d = np.array([[1,2,3,4],[5,6,7,8]])
+#3次元のndarrayクラス
+array_3d = np.array([[[1,2],[3,4],[5,6],[7,8]]])
+
+print(array_1d)
+print(array_2d)
+print(array_3d)
+
+'''
+stoages = [1,2,3,4]
+new_stages = []
+for n in stoages:
+    n += n
+    new_stages.append(n)
+print(new_stages)
+# 2 4 6 8 
+'''
+
+storages = np.array([1,2,3,4])
+storages += storages
+print(storages)
+# 2 4 6 8
+
+
+

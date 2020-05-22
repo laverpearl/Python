@@ -1,0 +1,17 @@
+import numpy as np 
+
+
+'''
+問題
+変数arr同士を足したものを出力して下さい。
+'''
+
+arr = np.array([2,5,3,4,8])
+
+print(arr + arr)
+
+print(arr - arr)
+
+print(arr ** 3)
+
+print(1/ arr)

@@ -1,0 +1,10 @@
+from sklearn.datasets import make_classitication
+import matplotlib.pyplot as plt
+import matplotlib
+
+x, y = make_classitication(n_samples=50, n_features=2, random_state=0)
+
+plt.scatter(x[:,0], x[:,1], c=y, marker=".",cmap=matplotlib.cm.get_cmap(name="bwr"), alpha=0.7)
+
+plt.grid(True)
+plt.show()
